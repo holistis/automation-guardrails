@@ -1,0 +1,36 @@
+{
+  "name": "automation-guardrails",
+  "version": "1.0.0",
+  "description": "Two small, framework-agnostic guardrails for Playwright/Puppeteer: verify you're on the page you think you're on, and fill contenteditable/rich-text editors without the silent double-write bug.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "playwright",
+    "puppeteer",
+    "browser-automation",
+    "contenteditable",
+    "draft.js",
+    "scraping",
+    "reliability"
+  ],
+  "author": "holistis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holistis/automation-guardrails.git"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}
